@@ -25,7 +25,7 @@ class Car extends Component {
 
     return (
       <div>
-        oi, eu sou o carro {name} e estou a {velocidade} km/h
+        {name} e estou a {velocidade} km/h
         <button onClick={() => this.acelerar()}>Acelerar</button>
       </div>
     );
